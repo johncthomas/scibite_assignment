@@ -15,4 +15,4 @@ dependencies = [
 py-modules = ["dbpedia_query"]
 
 [project.scripts]
-dbpedia-test ="dbpedia_query.main:test_do_sparql_query"
+dbpedia-test ="dbpedia_query:test_do_sparql_query"
