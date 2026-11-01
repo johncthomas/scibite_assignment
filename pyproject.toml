@@ -13,3 +13,6 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = ["dbpedia_query"]
+
+[project.scripts]
+dpbedia-query-test ="dbpedia_query:test_do_sparql_query"
